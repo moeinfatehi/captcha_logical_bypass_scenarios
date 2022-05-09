@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    container_name: captcha_bypass_challenges
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9002:80
+    volumes:
+       - ./src/:/var/www/html/
+    image: moeinfatehi/captcha_bypass_challenges:latest

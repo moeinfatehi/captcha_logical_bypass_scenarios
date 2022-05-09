@@ -1,0 +1,15 @@
+<?php
+//session_start();
+if(isset($_SESSION["first"])){
+    $_SESSION["first"]=false;
+}
+else{
+    $_SESSION["first"]=true;
+}
+if(isset($_SESSION["num"])){
+    $_SESSION["num"]++;
+}
+else{
+    $_SESSION["num"]=1;
+}
+?>
