@@ -9,4 +9,4 @@ services:
       - 9002:80
     volumes:
        - ./src/:/var/www/html/
-    image: moeinfatehi/captcha_bypass_challenges:latest
+    image: moeinfatehi/captcha_logical_bypass_scenarios:latest
