@@ -1,5 +1,7 @@
 
-# Captcha Logical Bypass Scenarios (Challenges)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/moeinfatehi/captcha_logical_bypass_scenarios)
+![Docker Pulls](https://img.shields.io/docker/pulls/moeinfatehi/captcha_logical_bypass_scenarios)
+# Captcha Logical Bypass Scenarios (Challenges) 
 This repository is a dockerized PHP application containing some captcha logical bypass challenges (scenarios).</br></br>
 **OWASP References:**
 * **Classification**: Web Application Security Testing > 04-Authentication Testing
